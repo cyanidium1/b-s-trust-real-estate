@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/b-s-trust-real-estate/static/css/main.57e203f4.css",
-    "main.js": "/b-s-trust-real-estate/static/js/main.fcf9e992.js",
+    "main.css": "/b-s-trust-real-estate/static/css/main.d9945f0a.css",
+    "main.js": "/b-s-trust-real-estate/static/js/main.2975d804.js",
     "static/media/palms.webp": "/b-s-trust-real-estate/static/media/palms.e8fbd180e6a0eae9ec32.webp",
+    "static/media/bgTour2@2x.webp": "/b-s-trust-real-estate/static/media/bgTour2@2x.67d4e5cef2b48b2ecb06.webp",
     "static/media/albania-map.webp": "/b-s-trust-real-estate/static/media/albania-map.76de2cd3cced4984911a.webp",
     "static/media/logoHeader.webp": "/b-s-trust-real-estate/static/media/logoHeader.62dc5792058bb5a964c2.webp",
+    "static/media/bgTour1@2x.webp": "/b-s-trust-real-estate/static/media/bgTour1@2x.5183f6163b86e2daa35c.webp",
+    "static/media/bgTour3@2x.webp": "/b-s-trust-real-estate/static/media/bgTour3@2x.12b05432f68c7488ff7f.webp",
     "index.html": "/b-s-trust-real-estate/index.html",
-    "main.57e203f4.css.map": "/b-s-trust-real-estate/static/css/main.57e203f4.css.map",
-    "main.fcf9e992.js.map": "/b-s-trust-real-estate/static/js/main.fcf9e992.js.map"
+    "main.d9945f0a.css.map": "/b-s-trust-real-estate/static/css/main.d9945f0a.css.map",
+    "main.2975d804.js.map": "/b-s-trust-real-estate/static/js/main.2975d804.js.map"
   },
   "entrypoints": [
-    "static/css/main.57e203f4.css",
-    "static/js/main.fcf9e992.js"
+    "static/css/main.d9945f0a.css",
+    "static/js/main.2975d804.js"
   ]
 }
