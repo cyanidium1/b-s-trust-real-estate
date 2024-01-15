@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/b-s-trust-real-estate/static/css/main.34e10acb.css",
+    "main.js": "/b-s-trust-real-estate/static/js/main.f2068e0f.js",
+    "static/js/787.bd960dd0.chunk.js": "/b-s-trust-real-estate/static/js/787.bd960dd0.chunk.js",
+    "static/media/logo.svg": "/b-s-trust-real-estate/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/b-s-trust-real-estate/index.html",
+    "main.34e10acb.css.map": "/b-s-trust-real-estate/static/css/main.34e10acb.css.map",
+    "main.f2068e0f.js.map": "/b-s-trust-real-estate/static/js/main.f2068e0f.js.map",
+    "787.bd960dd0.chunk.js.map": "/b-s-trust-real-estate/static/js/787.bd960dd0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34e10acb.css",
+    "static/js/main.f2068e0f.js"
+  ]
+}
