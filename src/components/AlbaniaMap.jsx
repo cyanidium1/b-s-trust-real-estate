@@ -4,7 +4,7 @@ import albaniaMap from '../images/albania-map.webp';
 const AlbaniaMap = () => {
     return (
         <section
-            className="p-4 bg-gradient-to-b from-[#9fd8d8] to-[#fdfaec] md:p-56">
+            className="p-4 bg-gradient-to-b from-[#9fd8d8] to-[#fdfaec] md:px-56">
             <h2 className="text-xl text-center font-semibold">
                 Почему АЛБАНИЯ?
             </h2>
