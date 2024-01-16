@@ -73,7 +73,7 @@ const InvestForm = ({ data, modal }) => {
                     {formTitle}
                 </h2>
 
-                <div className="items-start backdrop-blur-lg bg-white self-stretch flex flex-col mt-9 mb-5 p-4 rounded-2xl">
+                <div className="items-start  bg-white self-stretch flex flex-col mt-9 mb-5 p-4 rounded-2xl">
                     <p className="text-slate-950 text-center text-sm font-medium" aria-label="Form Description">
                         {formDescription}
                     </p>
