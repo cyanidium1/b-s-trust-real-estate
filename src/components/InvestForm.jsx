@@ -92,7 +92,7 @@ const InvestForm = ({ data, modal }) => {
           {formTitle}
         </h2>
 
-        <div className="items-start  bg-white self-stretch flex flex-col mt-9 mb-5 p-4 rounded-2xl">
+        <form className="items-start  bg-white self-stretch flex flex-col mt-9 mb-5 p-4 rounded-2xl">
           <p
             className="text-slate-950 text-center text-sm font-medium"
             aria-label="Form Description"
@@ -128,7 +128,7 @@ const InvestForm = ({ data, modal }) => {
           >
             {submitButtonText}
           </Button>
-        </div>
+        </form>
       </div>
       {isModalOpen && <Modal modal={modal} onClose={closeModal} />}
     </div>
