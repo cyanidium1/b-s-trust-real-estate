@@ -6,7 +6,7 @@ import bgTour3 from '../images/bgTour3@2x.webp';
 const Tour = () => {
     return (
 
-        <section className='w-full bg-gradient-to-b from-[#FDFAEC] to-[#7ba5d3] '>
+        <section className='w-full bg-gradient-to-b from-[#FDFAEC] to-[#7ba5d3] md:p-56'>
 
             <div className='p-2'>
                 <h2 className='text-2xl font-bold text-center'>Инвестиционный тур
