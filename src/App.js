@@ -1,16 +1,43 @@
-import './App.css';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
-import { useState } from 'react';
 
 function App() {
-  const [lang, setLang] = useState('ua')
+  const [lang, setLang] = useState(getDefaultLanguage());
+  const [data, setData] = useState({});
+  const [loading, setLoading] = useState(true);
+
+  function getDefaultLanguage() {
+    const browserLanguage = navigator.language || navigator.userLanguage;
+    return browserLanguage.split('-')[0];
+  }
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const jsonData = require(`../src/text-content/${lang}.json`);
+        setData(jsonData);
+        setLoading(false);
+      } catch (error) {
+        console.error('Error loading data:', error);
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [lang]);
+
+  // Повернути null, якщо дані ще завантажуються
+  if (loading) {
+    return null;
+  }
+
   return (
     <>
       <Header lang={lang} setLang={setLang} />
-      <Main lang={lang} />
-      <Footer lang={lang} />
+      <Main data={data} />
+      <Footer data={data.footer} />
     </>
   );
 }

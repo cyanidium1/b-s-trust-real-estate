@@ -5,14 +5,14 @@ import Tour from './Tour';
 import InvestForm from './InvestForm';
 import Contacts from './Contacts';
 
-function Main({ lang }) {
+function Main({ data }) {
     return (
         <main>
-            <GetEstates lang={lang} />
-            <AlbaniaMap lang={lang} />
-            <Tour lang={lang} />
-            <InvestForm lang={lang} />
-            <Contacts lang={lang} />
+            <GetEstates data={data.getEstates} />
+            <AlbaniaMap data={data.albaniaMap} />
+            <Tour data={data.tour} />
+            <InvestForm data={data.investForm} />
+            <Contacts data={data.contacts} />
         </main>
     );
 }

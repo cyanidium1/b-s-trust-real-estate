@@ -1,0 +1,106 @@
+{
+    "getEstates": {
+        "title": "НЕДВИЖИМОСТЬ В АЛБАНИИ",
+        "subtitle": "Приобретите недвижимость у моря и получите Вид на жительство!",
+        "buttonText": "Получить подбор недвижимости",
+        "features": [
+            "помощь в подборе и покупке недвижимости",
+            "ремонт и меблировка",
+            "аренда и управление вашей недвижимостью"
+        ]
+    },
+    "albaniaMap": {
+        "title": "Почему АЛБАНИЯ?",
+        "features": [
+            "Самая дешевая недвижимость на Адриатике",
+            "Безопасная страна",
+            "300 дней в году солнце",
+            "Экологичные продукты питания",
+            "Благоприятный климат"
+        ]
+    },
+    "tour": {
+        "title": "Инвестиционный тур в Албанию",
+        "description": "Бесплатный ознакомительный тур по недвижимости в Албании",
+        "steps": [
+            {
+                "number": "01.",
+                "title": "Тур до 5 дней",
+                "description": "Экскурсии и прогулки по городу. Осмотр школ и университетов"
+            },
+            {
+                "number": "02.",
+                "title": "Удобные для Вас даты"
+            },
+            {
+                "number": "03.",
+                "title": "Встреча в аэропорту"
+            },
+            {
+                "number": "04.",
+                "title": "Трансфер аэропорт/отель/аэропорт",
+                "description": "Консультация по оформлению сделки по недвижимости"
+            },
+            {
+                "number": "05.",
+                "title": "Размещение в комфортных апартаментах",
+                "description": "Открытие банковского счета"
+            },
+            {
+                "number": "06.",
+                "title": "Осмотр лучших объектов недвижимости под ваши цели",
+                "description": "Услуги адвоката. Получение вида на жительство"
+            }
+        ]
+    },
+    "investForm": {
+        "formTitle": "Форма заявки",
+        "formDescription": "Оставьте заявку и наш эксперт свяжется с Вами",
+        "nameLabel": "Имя",
+        "phoneLabel": "Телефон",
+        "submitButtonText": "Отправить заявку"
+    },
+    "contacts": {
+        "logoAltText": "Logo",
+        "realEstateText": "Недвижимость",
+        "investmentTourText": "Инвестиционный Тур",
+        "regionsText": "Районы Албании",
+        "phoneIcon": {
+            "icon": "phone",
+            "number": "+380 93 512 85 47"
+        },
+        "locationIcon": {
+            "icon": "location",
+            "address": "Durrës, Albania",
+            "mapLink": "https://maps.app.goo.gl/yjVAhm7VPZNqnm3x7"
+        }
+    },
+    "footer": {
+        "subscribeTitle": "Подпишитесь и будьте в курсе актуальных событий в мире недвижимости Албании!",
+        "socialMedia": [
+            {
+                "icon": "whatsapp",
+                "link": "https://wa.me/qr/XXBDREVA66NMP1",
+                "color": "#25D366"
+            },
+            {
+                "icon": "telegram",
+                "link": "https://www.t.me/real_estate_al",
+                "color": "#229ED9"
+            },
+            {
+                "icon": "facebook",
+                "link": "https://www.facebook.com/profile.php?id=100069581861273&mibextid=9R9pXO",
+                "color": "#1877F2"
+            }
+        ],
+        "subscriptionBenefits": [
+            "Новости рынка недвижимости Албании",
+            "Оповещения о новых стартах продаж",
+            "Доступ к эксклюзивным объектам на этапе pre-sale",
+            "Инвестиционные предложения"
+        ],
+        "youtubeLink": "https://youtube.com/@albania_gid",
+        "tiktokLink": "https://www.tiktok.com/@real_estate_albania"
+    }
+}

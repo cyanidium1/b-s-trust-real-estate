@@ -1,8 +1,10 @@
 import { Button, Menu, MenuHandler, MenuItem, MenuList } from '@material-tailwind/react';
 import React from 'react';
 import logo from '../images/logoHeader.webp'
+import Contact from './FloatingButton';
 
 function Header({ lang, setLang }) {
+
     return (
         <header className="bg-amber-300 p-4 flex items-center justify-between">
 
@@ -15,7 +17,7 @@ function Header({ lang, setLang }) {
                 }}
             >
                 <MenuHandler>
-                    <Button>Lang: {lang}</Button>
+                    <Button>{lang}</Button>
                 </MenuHandler>
                 <MenuList>
                     <MenuItem onClick={() => setLang('ua')}>Українська</MenuItem>
@@ -26,7 +28,7 @@ function Header({ lang, setLang }) {
                 </MenuList >
             </Menu >
 
-
+            <Contact />
 
         </header >
     );

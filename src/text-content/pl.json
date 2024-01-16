@@ -1,0 +1,107 @@
+{
+    "getEstates": {
+        "title": "NIERUCHOMOŚCI W ALBANII",
+        "subtitle": "Kup nieruchomość nad morzem i uzyskaj Prawo pobytu!",
+        "buttonText": "Otrzymaj propozycję nieruchomości",
+        "features": [
+            "pomoc w doborze i zakupie nieruchomości",
+            "remont i umeblowanie",
+            "wynajem i zarządzanie Twoją nieruchomością"
+        ]
+    },
+    "albaniaMap": {
+        "title": "DLACZEGO ALBANIA?",
+        "features": [
+            "Najtańsze nieruchomości nad Adriatykiem",
+            "Bezpieczny kraj",
+            "300 dni słońca w roku",
+            "Ekologiczne produkty spożywcze",
+            "Korzystny klimat"
+        ]
+    },
+    "tour": {
+        "title": "Wycieczka inwestycyjna do Albanii",
+        "description": "Darmowa wycieczka po nieruchomościach w Albanii",
+        "steps": [
+            {
+                "number": "01.",
+                "title": "Wycieczka do 5 dni",
+                "description": "Zwiedzanie miasta i spacery. Obejrzenie szkół i uniwersytetów"
+            },
+            {
+                "number": "02.",
+                "title": "Dogodne dla Ciebie daty"
+            },
+            {
+                "number": "03.",
+                "title": "Spotkanie na lotnisku"
+            },
+            {
+                "number": "04.",
+                "title": "Transfer lotnisko/hotel/lotnisko",
+                "description": "Konsultacje dotyczące zawarcia umowy dotyczącej nieruchomości"
+            },
+            {
+                "number": "05.",
+                "title": "Zakwaterowanie w wygodnych apartamentach",
+                "description": "Otwarcie konta bankowego"
+            },
+            {
+                "number": "06.",
+                "title": "Obejrzenie najlepszych nieruchomości pod Twoje cele",
+                "description": "Usługi prawnika. Uzyskanie Prawa pobytu"
+            }
+        ]
+    },
+    "investForm": {
+        "formTitle": "Formularz zgłoszeniowy",
+        "formDescription": "Zostaw zgłoszenie, a nasz ekspert skontaktuje się z Tobą",
+        "nameLabel": "Imię",
+        "phoneLabel": "Numer telefonu",
+        "submitButtonText": "Wyślij zgłoszenie"
+    },
+    "contacts": {
+        "logoAltText": "Logo",
+        "realEstateText": "Nieruchomość",
+        "investmentTourText": "Wycieczka Inwestycyjna",
+        "regionsText": "Regiony Albanii",
+        "phoneIcon": {
+            "icon": "telefon",
+            "number": "+380 93 512 85 47"
+        },
+        "locationIcon": {
+            "icon": "lokalizacja",
+            "address": "Durrës, Albania",
+            "mapLink": "https://maps.app.goo.gl/yjVAhm7VPZNqnm3x7"
+        }
+    },
+    "footer": {
+        "subscribeTitle": "Zapisz się i bądź na bieżąco z aktualnymi wydarzeniami na rynku nieruchomości w Albanii!",
+        "socialMedia": [
+            {
+                "icon": "whatsapp",
+                "link": "https://wa.me/qr/XXBDREVA66NMP1",
+                "color": "#25D366"
+            },
+            {
+                "icon": "telegram",
+                "link": "https://www.t.me/real_estate_al",
+                "color": "#229ED9"
+            },
+            {
+                "icon": "facebook",
+                "link": "https://www.facebook.com/profile.php?id=100069581861273&mibextid=9R9pXO",
+                "color": "#1877F2"
+            }
+        ],
+        "subscriptionBenefits": [
+            "Wiadomości na rynku nieruchomości w Albanii",
+            "Powiadomienia o nowych rozpoczęciach sprzedaży",
+            "Dostęp do ekskluzywnych obiektów na etapie pre-sale",
+            "Oferty inwestycyjne"
+        ],
+        "youtubeLink": "https://youtube.com/@albania_gid",
+        "tiktokLink": "https://www.tiktok.com/@real_estate_albania",
+        "we": "Jesteśmy na"
+    }
+}

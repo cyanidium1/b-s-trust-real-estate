@@ -1,8 +1,10 @@
 import React from 'react';
 import { FaWhatsapp, FaTiktok, FaTelegram, FaFacebook, FaYoutube } from 'react-icons/fa';
-import bg from '../images/stairs.webp'
+import bg from '../images/stairs.webp';
 
-function Footer(props) {
+function Footer({ data }) {
+    const { subscribeTitle, socialMedia, subscriptionBenefits, youtubeLink, tiktokLink, we } = data;
+
     return (
         <footer>
             <div className='relative' style={{
@@ -11,62 +13,66 @@ function Footer(props) {
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
             }}>
-
                 {/* Градиент */}
                 <div className="top-[-1px] absolute inset-0 bg-gradient-to-b from-[#FDFAEC] to-transparent h-1/4"></div>
                 {/* Контент */}
                 <div className="flex justify-center items-center p-8">
                     <div className="bg-white bg-opacity-50 backdrop-filter backdrop-blur-sm flex flex-col rounded-md items-center p-6 w-fit">
                         <p className="text-slate-950 text-center text-base font-medium mb-8">
-                            Подпишитесь и будьте в курсе актуальных<br /> событий в мире недвижимости Албании!
+                            {subscribeTitle}
                         </p>
                         <div className="flex flex-row gap-10 mb-8">
-                            <a className='hover:scale-110 transition-transform duration-300' target="_blank" href="https://wa.me/qr/XXBDREVA66NMP1" rel="noreferrer">
-                                <FaWhatsapp size={40} style={{ color: '#25D366' }} />
-                            </a>
-                            <a className='hover:scale-110 transition-transform duration-300' href="https://www.t.me/real_estate_al" target="_blank" rel="noreferrer">
-                                <FaTelegram size={40} style={{ color: '#229ED9' }} />
-                            </a>
-                            <a className='hover:scale-110 transition-transform duration-300' href="https://www.facebook.com/profile.php?id=100069581861273&mibextid=9R9pXO" target="_blank" rel="noreferrer">
-                                <FaFacebook size={40} style={{ color: '#1877F2' }} />
-                            </a>
+                            {socialMedia.map((social, index) => (
+                                <a key={index} className='hover:scale-110 transition-transform duration-300' target="_blank" href={social.link} rel="noreferrer">
+                                    {getSocialMediaIcon(social.icon, social.color, 40)}
+                                </a>
+                            ))}
                         </div>
 
                         <div className="flex flex-col justify-start"></div>
-                        <ul
-                            className="text-slate-950 text-sm w-64 list-disc font-normal flex flex-col gap-4"
-                        >
-                            <li>Новости рынка недвижимости Албании</li>
-                            <li>Оповещения о новых стартах продаж</li>
-                            <li>Доступ к эксклюзивным объектам на этапе pre-sale</li>
-                            <li>Инвестиционные предложения</li>
+                        <ul className="text-slate-950 text-sm w-64 list-disc font-normal flex flex-col gap-4">
+                            {subscriptionBenefits.map((benefit, index) => (
+                                <li key={index}>{benefit}</li>
+                            ))}
                         </ul>
                         <div className='flex justify-between space-x-2'>
                             <a
-                                href="https://youtube.com/@albania_gid"
+                                href={youtubeLink}
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-white text-center text-lg no-underline rounded bg-red-500 self-center mt-4 p-2 px-3 flex items-center justify-center gap-2 hover:scale-105 transition-transform duration-300"
                             >
                                 <FaYoutube size={50} color="white" />
-                                <span>Мы в YouTube</span>
+                                <span>{we} YouTube</span>
                             </a>
                             <a
-                                href="https://www.tiktok.com/@real_estate_albania"
+                                href={tiktokLink}
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-white text-center text-lg no-underline rounded bg-blue-gray-900 self-center mt-4 p-2 px-3 flex items-center justify-center gap-2 hover:scale-105 transition-transform duration-300"
                             >
                                 <FaTiktok size={50} color="white" />
-                                <span>Мы в TikTok</span>
+                                <span>{we} TikTok</span>
                             </a>
-
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
     );
+}
+
+function getSocialMediaIcon(icon, color, size) {
+    switch (icon) {
+        case 'whatsapp':
+            return <FaWhatsapp size={size} style={{ color }} />;
+        case 'telegram':
+            return <FaTelegram size={size} style={{ color }} />;
+        case 'facebook':
+            return <FaFacebook size={size} style={{ color }} />;
+        default:
+            return null;
+    }
 }
 
 export default Footer;
