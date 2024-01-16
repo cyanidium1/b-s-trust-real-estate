@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/b-s-trust-real-estate/static/css/main.fef9d851.css",
-    "main.js": "/b-s-trust-real-estate/static/js/main.be582926.js",
+    "main.css": "/b-s-trust-real-estate/static/css/main.f5ba30bd.css",
+    "main.js": "/b-s-trust-real-estate/static/js/main.a51cdb81.js",
     "static/media/bg-Question-min.jpg": "/b-s-trust-real-estate/static/media/bg-Question-min.938054932437035d7a27.jpg",
     "static/media/palms.jpg": "/b-s-trust-real-estate/static/media/palms.02579b03ec81cdded017.jpg",
     "static/media/stairs.webp": "/b-s-trust-real-estate/static/media/stairs.3070a03cfeb172cd1ff8.webp",
@@ -13,11 +13,11 @@
     "static/media/bgTour1@2x.webp": "/b-s-trust-real-estate/static/media/bgTour1@2x.5183f6163b86e2daa35c.webp",
     "static/media/bgTour3@2x.webp": "/b-s-trust-real-estate/static/media/bgTour3@2x.12b05432f68c7488ff7f.webp",
     "index.html": "/b-s-trust-real-estate/index.html",
-    "main.fef9d851.css.map": "/b-s-trust-real-estate/static/css/main.fef9d851.css.map",
-    "main.be582926.js.map": "/b-s-trust-real-estate/static/js/main.be582926.js.map"
+    "main.f5ba30bd.css.map": "/b-s-trust-real-estate/static/css/main.f5ba30bd.css.map",
+    "main.a51cdb81.js.map": "/b-s-trust-real-estate/static/js/main.a51cdb81.js.map"
   },
   "entrypoints": [
-    "static/css/main.fef9d851.css",
-    "static/js/main.be582926.js"
+    "static/css/main.f5ba30bd.css",
+    "static/js/main.a51cdb81.js"
   ]
 }
