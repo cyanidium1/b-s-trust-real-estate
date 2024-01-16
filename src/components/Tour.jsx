@@ -7,7 +7,7 @@ const Tour = ({ data }) => {
     const { title, description, steps } = data;
 
     return (
-        <section className='w-full bg-gradient-to-b from-[#FDFAEC] to-[#7ba5d3] md:px-56'>
+        <section className='w-full bg-gradient-to-b from-[#FDFAEC] to-[#7ba5d3] flex flex-col justify-center items-center md:px-56'>
             <div className='p-2'>
                 <h2 className='text-2xl font-bold text-center'>{title}</h2>
                 <p className='text-center'>{description}</p>
@@ -35,6 +35,7 @@ const Tour = ({ data }) => {
                     <h3 className="text-xl font-bold">{steps[2].title}</h3>
                 </div>
             </div>
+
             <img src={bgTour2} alt="Tour 2" />
 
             <div className="w-full p-2 flex flex-col justify-end">

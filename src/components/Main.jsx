@@ -11,7 +11,7 @@ function Main({ data }) {
             <GetEstates data={data.getEstates} />
             <AlbaniaMap data={data.albaniaMap} />
             <Tour data={data.tour} />
-            <InvestForm data={data.investForm} />
+            <InvestForm data={data.investForm} modal={data.investModal} />
             <Contacts data={data.contacts} />
         </main>
     );

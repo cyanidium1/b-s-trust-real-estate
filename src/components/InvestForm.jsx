@@ -1,9 +1,65 @@
-import React from 'react';
+import React, { useState } from 'react';
 import bg from '../images/house.webp';
 import { Button, Input } from '@material-tailwind/react';
+import Modal from './Modal';
 
-const InvestForm = ({ data }) => {
+const InvestForm = ({ data, modal }) => {
     const { formTitle, formDescription, nameLabel, phoneLabel, submitButtonText } = data;
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const isValidPhoneNumber = (phoneNumber) => {
+        const phonePattern = /^[\d\s\-()+]+$/;
+        return phonePattern.test(phoneNumber);
+    };
+
+    const [formData, setFormData] = useState({
+        name: '',
+        phone: '',
+    });
+
+    const [validationErrors, setValidationErrors] = useState({
+        name: '',
+        phone: '',
+    });
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value,
+        }));
+        setValidationErrors((prevErrors) => ({
+            ...prevErrors,
+            [name]: '',
+        }));
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        if (formData.name.length < 2) {
+            setValidationErrors((prevErrors) => ({
+                ...prevErrors,
+                name: 'Name must be at least 2 characters.',
+            }));
+            return;
+        }
+
+        if (!isValidPhoneNumber(formData.phone)) {
+            setValidationErrors((prevErrors) => ({
+                ...prevErrors,
+                phone: 'Invalid phone number.',
+            }));
+            return;
+        }
+
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
+
 
     return (
         <div className="h-[680px] relative">
@@ -25,18 +81,21 @@ const InvestForm = ({ data }) => {
                     </p>
 
                     <div className="w-full my-4">
-                        <Input label={nameLabel} />
-                    </div>
+                        <Input name='name' label={nameLabel} onChange={handleInputChange} />
+                        {validationErrors.name && <p className="text-red-500 text-center py-1">{validationErrors.name}</p>}
 
+                    </div>
                     <div className="w-full">
-                        <Input label={phoneLabel} />
-                    </div>
+                        <Input name='phone' label={phoneLabel} onChange={handleInputChange} />
+                        {validationErrors.phone && <p className="text-red-500 text-center py-1">{validationErrors.phone}</p>}
 
-                    <Button className="mt-4" fullWidth>
+                    </div>
+                    <Button className="mt-4" onClick={handleSubmit} disabled={!formData.name || !formData.phone} fullWidth>
                         {submitButtonText}
                     </Button>
                 </div>
             </div>
+            {isModalOpen && <Modal modal={modal} onClose={closeModal} />}
         </div>
     );
 };

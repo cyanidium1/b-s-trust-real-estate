@@ -103,5 +103,9 @@
         "youtubeLink": "https://youtube.com/@albania_gid",
         "tiktokLink": "https://www.tiktok.com/@real_estate_albania",
         "we": "We in"
+    },
+    "investModal": {
+        "thanks": "Thank you for your request, we will contact you shortly!",
+        "close": "Close"
     }
 }
