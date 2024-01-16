@@ -38,7 +38,7 @@ const Contacts = () => {
                                 </defs>
                             </svg>
                         </p>
-                        <a href="tel:+380 93 512 85 47" className="text-slate-950 text-sm font-medium grow whitespace-nowrap">
+                        <a href="tel:+380 93 512 85 47" className="text-slate-950 text-sm font-medium grow whitespace-nowrap hover:text-red-300 hover:scale-105 transition-transform duration-300">
                             +380 93 512 85 47
                         </a>
 
@@ -60,7 +60,7 @@ const Contacts = () => {
                             </svg>
                         </p>
 
-                        <a href="https://maps.app.goo.gl/yjVAhm7VPZNqnm3x7" target="_blank" rel="noreferrer" className="justify-center text-slate-950 text-sm font-medium grow whitespace-nowrap">
+                        <a href="https://maps.app.goo.gl/yjVAhm7VPZNqnm3x7" target="_blank" rel="noreferrer" className="hover:text-red-300 hover:scale-105 transition-transform duration-300 justify-center text-slate-950 text-sm font-medium grow whitespace-nowrap">
                             Durrës, Albania
                         </a>
                     </div>

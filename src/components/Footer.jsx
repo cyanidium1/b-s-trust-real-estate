@@ -21,13 +21,13 @@ function Footer(props) {
                             Подпишитесь и будьте в курсе актуальных<br /> событий в мире недвижимости Албании!
                         </p>
                         <div className="flex flex-row gap-10 mb-8">
-                            <a target="_blank" href="https://wa.me/qr/XXBDREVA66NMP1" rel="noreferrer">
+                            <a className='hover:scale-110 transition-transform duration-300' target="_blank" href="https://wa.me/qr/XXBDREVA66NMP1" rel="noreferrer">
                                 <FaWhatsapp size={40} style={{ color: '#25D366' }} />
                             </a>
-                            <a href="https://www.t.me/real_estate_al" target="_blank" rel="noreferrer">
+                            <a className='hover:scale-110 transition-transform duration-300' href="https://www.t.me/real_estate_al" target="_blank" rel="noreferrer">
                                 <FaTelegram size={40} style={{ color: '#229ED9' }} />
                             </a>
-                            <a href="https://www.facebook.com/profile.php?id=100069581861273&mibextid=9R9pXO" target="_blank" rel="noreferrer">
+                            <a className='hover:scale-110 transition-transform duration-300' href="https://www.facebook.com/profile.php?id=100069581861273&mibextid=9R9pXO" target="_blank" rel="noreferrer">
                                 <FaFacebook size={40} style={{ color: '#1877F2' }} />
                             </a>
                         </div>
@@ -46,8 +46,7 @@ function Footer(props) {
                                 href="https://youtube.com/@albania_gid"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="text-white text-center text-lg
-                             no-underline rounded bg-red-500 self-center mt-4 p-2 px-3 flex items-center justify-center gap-2"
+                                className="text-white text-center text-lg no-underline rounded bg-red-500 self-center mt-4 p-2 px-3 flex items-center justify-center gap-2 hover:scale-105 transition-transform duration-300"
                             >
                                 <FaYoutube size={50} color="white" />
                                 <span>Мы в YouTube</span>
@@ -56,11 +55,12 @@ function Footer(props) {
                                 href="https://www.tiktok.com/@real_estate_albania"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="text-white text-center text-lg no-underline rounded bg-blue-gray-900 self-center mt-4 p-2 px-3 flex items-center justify-center gap-2"
+                                className="text-white text-center text-lg no-underline rounded bg-blue-gray-900 self-center mt-4 p-2 px-3 flex items-center justify-center gap-2 hover:scale-105 transition-transform duration-300"
                             >
                                 <FaTiktok size={50} color="white" />
                                 <span>Мы в TikTok</span>
                             </a>
+
                         </div>
                     </div>
                 </div>
