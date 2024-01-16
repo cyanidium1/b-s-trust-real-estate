@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import bg from '../images/palms.jpg'
+import SurveyModal from './SurveyModal';
 
-const GetEstates = ({ data }) => {
+const GetEstates = ({ data, lang }) => {
     const { title, subtitle, buttonText, features } = data;
+
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => {
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
 
     return (
         <section
@@ -27,6 +39,7 @@ const GetEstates = ({ data }) => {
             <button
                 className="w-fit mb-10 select-none rounded-lg bg-amber-300 p-2 text-center align-middle font-sans text-lg font-medium uppercase text-black shadow-md shadow-amber-500/20 transition-all hover:shadow-lg hover:shadow-amber-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 type="button"
+                onClick={openModal}
             >
                 {buttonText}
             </button>
@@ -38,6 +51,8 @@ const GetEstates = ({ data }) => {
                     </li>
                 ))}
             </ul>
+            {isModalOpen && <SurveyModal onClose={closeModal} lang={lang} />}
+
         </section>
     );
 };

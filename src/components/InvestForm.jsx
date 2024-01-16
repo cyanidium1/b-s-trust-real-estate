@@ -6,12 +6,10 @@ import Modal from './Modal';
 const InvestForm = ({ data, modal }) => {
     const { formTitle, formDescription, nameLabel, phoneLabel, submitButtonText } = data;
     const [isModalOpen, setIsModalOpen] = useState(false);
-
     const isValidPhoneNumber = (phoneNumber) => {
         const phonePattern = /^[\d\s\-()+]+$/;
         return phonePattern.test(phoneNumber);
     };
-
     const [formData, setFormData] = useState({
         name: '',
         phone: '',

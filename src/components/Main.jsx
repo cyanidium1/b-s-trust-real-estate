@@ -5,10 +5,10 @@ import Tour from './Tour';
 import InvestForm from './InvestForm';
 import Contacts from './Contacts';
 
-function Main({ data }) {
+function Main({ data, lang }) {
     return (
         <main>
-            <GetEstates data={data.getEstates} />
+            <GetEstates data={data.getEstates} lang={lang} />
             <AlbaniaMap data={data.albaniaMap} />
             <Tour data={data.tour} />
             <InvestForm data={data.investForm} modal={data.investModal} />

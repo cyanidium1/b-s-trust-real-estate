@@ -36,7 +36,7 @@ function App() {
   return (
     <>
       <Header lang={lang} setLang={setLang} />
-      <Main data={data} />
+      <Main data={data} lang={lang} />
       <Footer data={data.footer} />
     </>
   );
