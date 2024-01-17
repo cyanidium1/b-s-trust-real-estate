@@ -381,9 +381,16 @@
         "it": {
             "next": "Avanti",
             "back": "Uscire",
-            "exit": "Выйти",
+            "exit": "Esci",
             "noNumber": "Inserisci un numero, per favore",
             "finish": "Termina"
+        },
+        "ru": {
+            "next": "Дальше",
+            "back": "Назад",
+            "exit": "Выйти",
+            "noNumber": "Введите, пожалуйста, данные",
+            "finish": "Закончить"
         }
     }
 }
