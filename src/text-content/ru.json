@@ -57,8 +57,10 @@
         "formTitle": "Форма заявки",
         "formDescription": "Оставьте заявку и наш эксперт свяжется с Вами",
         "nameLabel": "Имя",
-        "phoneLabel": "Телефон",
-        "submitButtonText": "Отправить заявку"
+        "phoneLabel": "Телефон с кодом страны",
+        "submitButtonText": "Отправить заявку",
+        "invalidPhone": "Телефон должен начинаться с + и иметь как минимум 7 цифр.",
+        "invalidName": "Имя должно состоять из хотя бы 2 букв."
     },
     "contacts": {
         "logoAltText": "Logo",

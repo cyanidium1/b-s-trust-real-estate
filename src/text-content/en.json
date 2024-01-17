@@ -58,7 +58,9 @@
         "formDescription": "Leave an application and our expert will contact you",
         "nameLabel": "Name",
         "phoneLabel": "Phone Number",
-        "submitButtonText": "Submit Application"
+        "submitButtonText": "Submit Application",
+        "invalidPhone": "Phone must start with + and have at least 7 digits.",
+        "invalidName": "Name must consist of at least 2 letters."
     },
     "contacts": {
         "logoAltText": "Logo",

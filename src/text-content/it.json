@@ -58,7 +58,9 @@
         "formDescription": "Lascia una richiesta e il nostro esperto ti contatterà",
         "nameLabel": "Nome",
         "phoneLabel": "Numero di telefono",
-        "submitButtonText": "Invia Richiesta"
+        "submitButtonText": "Invia Richiesta",
+        "invalidPhone": "Il telefono deve iniziare con il simbolo + e avere almeno 7 cifre.",
+        "invalidName": "Il nome deve contenere almeno 2 lettere."
     },
     "contacts": {
         "logoAltText": "Logo",

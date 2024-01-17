@@ -3,18 +3,23 @@ import bg from "../images/house.webp";
 import { Button, Input } from "@material-tailwind/react";
 import { sendMessage } from "../sendMessage";
 
-const InvestForm = ({ data, setIsModalOpen }) => {
+const InvestForm = ({ data, setIsModalOpen, lang }) => {
   const {
     formTitle,
     formDescription,
     nameLabel,
     phoneLabel,
     submitButtonText,
+    invalidPhone,
+    invalidName,
   } = data;
   const isValidPhoneNumber = (phoneNumber) => {
     const phonePattern = /^[\d\s\-()+]+$/;
-    return phonePattern.test(phoneNumber);
+    const minLength = 7;
+
+    return phonePattern.test(phoneNumber) && phoneNumber.length >= minLength;
   };
+
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -45,7 +50,7 @@ const InvestForm = ({ data, setIsModalOpen }) => {
     if (formData.name.length < 2) {
       setValidationErrors((prevErrors) => ({
         ...prevErrors,
-        name: "Name must be at least 2 characters.",
+        name: invalidName,
       }));
       return;
     }
@@ -53,13 +58,15 @@ const InvestForm = ({ data, setIsModalOpen }) => {
     if (!isValidPhoneNumber(formData.phone)) {
       setValidationErrors((prevErrors) => ({
         ...prevErrors,
-        phone: "Invalid phone number.",
+        phone: invalidPhone,
       }));
       return;
     }
+
     sendMessage(
-      `Посетитель вашего сайта хочет чтобы с ним связались, его имя: ${name.value}, его телефон: ${phone.value},`
+      `Посетитель вашего сайта хочет чтобы с ним связались, его имя: ${name.value}, его телефон: ${phone.value}. Он оставил заявку на ${lang} языке в ${new Date().toLocaleTimeString()}.`
     );
+
     setIsModalOpen(true);
   };
 
@@ -100,7 +107,7 @@ const InvestForm = ({ data, setIsModalOpen }) => {
             <Input name="name" label={nameLabel} onChange={handleInputChange} />
             {validationErrors.name && (
               <p className="text-red-500 text-center py-1">
-                {validationErrors.name}
+                {invalidName}
               </p>
             )}
           </div>
@@ -108,11 +115,12 @@ const InvestForm = ({ data, setIsModalOpen }) => {
             <Input
               name="phone"
               label={phoneLabel}
+
               onChange={handleInputChange}
             />
             {validationErrors.phone && (
-              <p className="text-red-500 text-center py-1">
-                {validationErrors.phone}
+              <p className="text-red-500 text-center py-1 max-w-80">
+                {invalidPhone}
               </p>
             )}
           </div>

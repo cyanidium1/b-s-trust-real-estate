@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import bg from "../images/bg-Question-min.jpg";
-import data from "../text-content/questions/ru.json";
+import data from "../text-content/questions/survey.json";
 import { sendMessage } from "../sendMessage";
 
 const SurveyModal = ({ onClose, lang, setIsModalThanksOpen }) => {
-  const surveyData = data.questions || [];
+  const surveyData = data[lang] || [];
+  const controls = data.controls[lang]
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState({});
   const [selectedOption, setSelectedOption] = useState(null);
@@ -48,7 +49,7 @@ const SurveyModal = ({ onClose, lang, setIsModalThanksOpen }) => {
       surveyData[currentQuestion]?.type === "input" &&
       !answers[currentQuestion]
     ) {
-      alert("Пожалуйста, заполните поле.");
+      alert(controls.noNumber);
     } else {
       setCurrentQuestion((prevQuestion) =>
         Math.min(prevQuestion + 1, surveyData.length - 1)
@@ -76,7 +77,7 @@ const SurveyModal = ({ onClose, lang, setIsModalThanksOpen }) => {
     //   `Пользователь ${answers[5]} заполнил анкету о подборе недвижимости в ${currentTime} на ${lang} языке на вашем сайте! Его телефон: ${answers[6]} и он бы хотел что б вы с ним связались через ${answers[7]}. Он выбрал следующие варианты ответов: ${answers[0]}, ${answers[1]}, ${answers[2]}, ${answers[3]}, ${answers[4]}`
     // );
 
-    const message = `Пользователь ${answers[5]} заполнил анкету о подборе недвижимости в ${currentTime} на ${lang} языке на вашем сайте! \nЕго телефон: ${answers[6]} и он бы хотел что б вы с ним связались через ${answers[7]}. \nОн выбрал следующие варианты ответов: ${answers[0]}, ${answers[1]}, ${answers[2]}, ${answers[3]}, ${answers[4]} `;
+    const message = `Пользователь ${answers[5]} заполнил анкету о подборе недвижимости в ${currentTime} на ${lang} языке на вашем сайте! \nЕго телефон: ${answers[6]} и он бы хотел что б вы с ним связались через ${answers[7]}. \nОн выбрал следующие варианты ответов: ${answers[0]}, ${answers[1]}, ${answers[2]}, ${answers[3]}, ${answers[4]}.`;
     sendMessage(message);
     // ТУТ ДАННЫЕ ЮЗЕРА
     setIsModalThanksOpen(true)
@@ -134,9 +135,7 @@ const SurveyModal = ({ onClose, lang, setIsModalThanksOpen }) => {
               }
               className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded mb-2"
             >
-              {currentQuestion === surveyData.length - 1
-                ? "Закончить"
-                : "Далее"}
+              {controls.next}
             </button>
           )}
           {currentQuestion === 7 && (
@@ -144,14 +143,14 @@ const SurveyModal = ({ onClose, lang, setIsModalThanksOpen }) => {
               onClick={handleFinish}
               className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded mb-2"
             >
-              Закончить
+              {controls.finish}
             </button>
           )}
           <button
             onClick={handleBack}
             className="bg-gray-400 hover:bg-gray-500 text-white py-2 px-4 rounded mb-2"
           >
-            {currentQuestion === 0 ? "Выйти" : "Назад"}
+            {currentQuestion === 0 ? controls.exit : controls.back}
           </button>
         </div>
       </div>

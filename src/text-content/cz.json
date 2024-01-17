@@ -58,7 +58,9 @@
         "formDescription": "Zanechte přihlášku a náš odborník vás kontaktuje",
         "nameLabel": "Jméno",
         "phoneLabel": "Telefonní číslo",
-        "submitButtonText": "Odeslat přihlášku"
+        "submitButtonText": "Odeslat přihlášku",
+        "invalidPhone": "Telefon musí začínat znakem + a mít minimálně 7 číslic.",
+        "invalidName": "Jméno musí obsahovat minimálně 2 písmena."
     },
     "contacts": {
         "logoAltText": "Logo",

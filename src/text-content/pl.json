@@ -58,7 +58,9 @@
         "formDescription": "Zostaw zgłoszenie, a nasz ekspert skontaktuje się z Tobą",
         "nameLabel": "Imię",
         "phoneLabel": "Numer telefonu",
-        "submitButtonText": "Wyślij zgłoszenie"
+        "submitButtonText": "Wyślij zgłoszenie",
+        "invalidPhone": "Numer telefonu musi zaczynać się od znaku + i mieć co najmniej 7 cyfr.",
+        "invalidName": "Imię musi składać się z co najmniej 2 liter."
     },
     "contacts": {
         "logoAltText": "Logo",

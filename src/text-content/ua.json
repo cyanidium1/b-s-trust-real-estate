@@ -58,7 +58,9 @@
         "formDescription": "Залиште заявку, і наш експерт зв'яжеться з Вами",
         "nameLabel": "Ім'я",
         "phoneLabel": "Телефон",
-        "submitButtonText": "Надіслати заявку"
+        "submitButtonText": "Надіслати заявку",
+        "invalidPhone": "Номер телефону повинен починатися з + та мати принаймні 7 цифр.",
+        "invalidName": "Ім'я повинно складатися з принаймні 2 літер."
     },
     "contacts": {
         "logoAltText": "Логотип",
