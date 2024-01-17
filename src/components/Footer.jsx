@@ -5,8 +5,23 @@ import bg from '../images/stairs.webp';
 function Footer({ data }) {
     const { subscribeTitle, socialMedia, subscriptionBenefits, youtubeLink, tiktokLink, we } = data;
 
+    function getSocialMediaIcon(icon, color, size) {
+        switch (icon) {
+            case 'whatsapp':
+                return <FaWhatsapp size={size} style={{ color }} />;
+            case 'telegram':
+                return <FaTelegram size={size} style={{ color }} />;
+            case 'facebook':
+                return <FaFacebook size={size} style={{ color }} />;
+            default:
+                return null;
+        }
+    }
+
     return (
         <footer>
+            {/* made by https://github.com/cyanidium1 */}
+
             <div className='relative' style={{
                 backgroundImage: `url('${bg}')`,
                 backgroundPosition: 'center',
@@ -16,7 +31,7 @@ function Footer({ data }) {
                 {/* Градиент */}
                 <div className="top-[-1px] absolute inset-0 bg-gradient-to-b from-[#FDFAEC] to-transparent h-1/4"></div>
                 {/* Контент */}
-                <div className="flex justify-center items-center p-8">
+                <div className="flex justify-center items-center p-8 pb-1">
                     <div className="bg-white bg-opacity-50 backdrop-filter backdrop-blur-sm flex flex-col rounded-md items-center p-6 w-fit">
                         <p className="text-slate-950 text-center text-base font-medium mb-8">
                             {subscribeTitle}
@@ -57,22 +72,12 @@ function Footer({ data }) {
                         </div>
                     </div>
                 </div>
+                <div className='text-center'>
+                    <a className='text-xs' href="https://github.com/cyanidium1" target="_blank" rel="noopener noreferrer">made on earth by cyanidium</a>
+                </div>
             </div>
         </footer>
     );
-}
-
-function getSocialMediaIcon(icon, color, size) {
-    switch (icon) {
-        case 'whatsapp':
-            return <FaWhatsapp size={size} style={{ color }} />;
-        case 'telegram':
-            return <FaTelegram size={size} style={{ color }} />;
-        case 'facebook':
-            return <FaFacebook size={size} style={{ color }} />;
-        default:
-            return null;
-    }
 }
 
 export default Footer;
