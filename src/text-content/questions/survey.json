@@ -273,7 +273,7 @@
             "question": "Vyberte pohodlný způsob komunikace",
             "options": [
                 "Telefon",
-                "E-mail",
+                "Viber",
                 "WhatsApp",
                 "Telegram"
             ]
@@ -343,7 +343,7 @@
             "question": "Scegli un modo comodo per comunicare",
             "options": [
                 "Telefono",
-                "E-mail",
+                "Viber",
                 "WhatsApp",
                 "Telegram"
             ]
