@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import bg from "../images/house.webp";
 import { Button, Input } from "@material-tailwind/react";
-import Modal from "./Modal";
 import { sendMessage } from "../sendMessage";
 
-const InvestForm = ({ data, modal }) => {
+const InvestForm = ({ data, setIsModalOpen }) => {
   const {
     formTitle,
     formDescription,
@@ -12,7 +11,6 @@ const InvestForm = ({ data, modal }) => {
     phoneLabel,
     submitButtonText,
   } = data;
-  const [isModalOpen, setIsModalOpen] = useState(false);
   const isValidPhoneNumber = (phoneNumber) => {
     const phonePattern = /^[\d\s\-()+]+$/;
     return phonePattern.test(phoneNumber);
@@ -65,9 +63,7 @@ const InvestForm = ({ data, modal }) => {
     setIsModalOpen(true);
   };
 
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
+
 
   return (
     <div className="h-[680px] relative">
@@ -130,7 +126,6 @@ const InvestForm = ({ data, modal }) => {
           </Button>
         </form>
       </div>
-      {isModalOpen && <Modal modal={modal} onClose={closeModal} />}
     </div>
   );
 };

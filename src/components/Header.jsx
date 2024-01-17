@@ -20,11 +20,12 @@ function Header({ lang, setLang }) {
                     <Button>{lang}</Button>
                 </MenuHandler>
                 <MenuList>
-                    <MenuItem onClick={() => setLang('ua')}>Українська</MenuItem>
-                    <MenuItem onClick={() => setLang('ru')} > Русский</MenuItem>
-                    <MenuItem onClick={() => setLang('en')} > English</MenuItem>
-                    <MenuItem onClick={() => setLang('pl')} > Polska</MenuItem>
-
+                    <MenuItem onClick={() => setLang('ua')}> Українська</MenuItem>
+                    <MenuItem onClick={() => setLang('ru')}> Русский</MenuItem>
+                    <MenuItem onClick={() => setLang('en')}> English</MenuItem>
+                    <MenuItem onClick={() => setLang('pl')}> Polska</MenuItem>
+                    <MenuItem onClick={() => setLang('it')}> Italiano</MenuItem>
+                    <MenuItem onClick={() => setLang('cz')}> Čeština</MenuItem>
                 </MenuList >
             </Menu >
 

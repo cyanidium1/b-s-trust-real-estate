@@ -3,7 +3,7 @@ import logo from '../images/logoBig.webp';
 import { FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Contacts = ({ data }) => {
-    const { logoAltText, realEstateText, investmentTourText, regionsText, phoneIcon, locationIcon } = data;
+    const { logoAltText, realEstateText, investmentTourText, regionsText, locationIcon } = data;
 
     return (
         <div className=" bg-[#FDFAEC] py-4">
@@ -27,8 +27,8 @@ const Contacts = ({ data }) => {
                         <p>
                             <FaPhone />
                         </p>
-                        <a href={`tel:${phoneIcon.number}`} className="text-slate-950 text-sm font-medium grow whitespace-nowrap hover:text-red-300 hover:scale-105 transition-transform duration-300">
-                            {phoneIcon.number}
+                        <a href='tel:+355693122813' className="text-slate-950 text-sm font-medium grow whitespace-nowrap hover:text-red-300 hover:scale-105 transition-transform duration-300">
+                            +355 69 312 2813
                         </a>
 
                         <p>

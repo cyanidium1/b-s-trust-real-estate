@@ -3,7 +3,7 @@ import bg from "../images/bg-Question-min.jpg";
 import data from "../text-content/questions/ru.json";
 import { sendMessage } from "../sendMessage";
 
-const SurveyModal = ({ onClose, lang }) => {
+const SurveyModal = ({ onClose, lang, setIsModalThanksOpen }) => {
   const surveyData = data.questions || [];
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -72,17 +72,15 @@ const SurveyModal = ({ onClose, lang }) => {
   const handleFinish = () => {
     const currentTime = new Date().toLocaleTimeString();
     onClose();
-    console.log(
-      `Пользователь ${answers[5]} заполнил анкету о подборе недвижимости в ${currentTime} на ${lang} языке на вашем сайте! Его телефон: ${answers[6]} и он бы хотел что б вы с ним связались через ${answers[7]}. Он выбрал следующие варианты ответов: ${answers[0]}, ${answers[1]}, ${answers[2]}, ${answers[3]}, ${answers[4]}`
-    );
-    // ВОТ ТУТ ДАННЫЕ ЮЗЕРА
-    // ВОТ ТУТ ДАННЫЕ ЮЗЕРА
+    // console.log(
+    //   `Пользователь ${answers[5]} заполнил анкету о подборе недвижимости в ${currentTime} на ${lang} языке на вашем сайте! Его телефон: ${answers[6]} и он бы хотел что б вы с ним связались через ${answers[7]}. Он выбрал следующие варианты ответов: ${answers[0]}, ${answers[1]}, ${answers[2]}, ${answers[3]}, ${answers[4]}`
+    // );
+
     const message = `Пользователь ${answers[5]} заполнил анкету о подборе недвижимости в ${currentTime} на ${lang} языке на вашем сайте! \nЕго телефон: ${answers[6]} и он бы хотел что б вы с ним связались через ${answers[7]}. \nОн выбрал следующие варианты ответов: ${answers[0]}, ${answers[1]}, ${answers[2]}, ${answers[3]}, ${answers[4]} `;
     sendMessage(message);
+    // ТУТ ДАННЫЕ ЮЗЕРА
+    setIsModalThanksOpen(true)
 
-    // ВОТ ТУТ ДАННЫЕ ЮЗЕРА
-    // ВОТ ТУТ ДАННЫЕ ЮЗЕРА
-    // ВОТ ТУТ ДАННЫЕ ЮЗЕРА
   };
   return (
     <div
@@ -106,11 +104,10 @@ const SurveyModal = ({ onClose, lang }) => {
               surveyData[currentQuestion].options.map((option, index) => (
                 <button
                   key={index}
-                  className={`hover:bg-blue-600 ${
-                    selectedOption === option
-                      ? "bg-orange-500 hover:bg-orange-400"
-                      : "bg-blue-500"
-                  } hover:bg-blue-600 text-white py-2 px-4 rounded mb-2`}
+                  className={`hover:bg-blue-600 ${selectedOption === option
+                    ? "bg-orange-500 hover:bg-orange-400"
+                    : "bg-blue-500"
+                    } hover:bg-blue-600 text-white py-2 px-4 rounded mb-2`}
                   onClick={() => handleOptionSelect(option)}
                 >
                   {option}

@@ -1,0 +1,111 @@
+{
+    "getEstates": {
+        "title": "REALITY V ALBÁNII",
+        "subtitle": "Koupit nemovitost na pobřeží a získat rezidenci!",
+        "buttonText": "Získat výběr nemovitostí",
+        "features": [
+            "Pomoc při výběru a nákupu nemovitosti",
+            "Renovace a zařizování",
+            "Pronájem a správa vaší nemovitosti"
+        ]
+    },
+    "albaniaMap": {
+        "title": "PROČ ALBÁNIE?",
+        "features": [
+            "Nejlevnější nemovitosti na Jaderském moři",
+            "Bezpečná země",
+            "300 slunečních dní za rok",
+            "Ekologické potravinové produkty",
+            "Příznivé klima"
+        ]
+    },
+    "tour": {
+        "title": "Investiční zájezd do Albánie",
+        "description": "Bezplatná úvodní prohlídka nemovitostí v Albánii",
+        "steps": [
+            {
+                "number": "01.",
+                "title": "Zájezd až na 5 dní",
+                "description": "Exkurze a procházky městem. Návštěva škol a univerzit."
+            },
+            {
+                "number": "02.",
+                "title": "Vhodné termíny pro vás"
+            },
+            {
+                "number": "03.",
+                "title": "Setkání na letišti"
+            },
+            {
+                "number": "04.",
+                "title": "Přeprava letiště/hotel/letiště",
+                "description": "Konzultace ohledně dokumentace k transakci s nemovitostmi"
+            },
+            {
+                "number": "05.",
+                "title": "Ubytování v pohodlných apartmánech",
+                "description": "Založení bankovního účtu"
+            },
+            {
+                "number": "06.",
+                "title": "Prohlídka nejlepších nemovitostí pro vaše cíle",
+                "description": "Právní služby. Získání rezidence"
+            }
+        ]
+    },
+    "investForm": {
+        "formTitle": "Přihláška",
+        "formDescription": "Zanechte přihlášku a náš odborník vás kontaktuje",
+        "nameLabel": "Jméno",
+        "phoneLabel": "Telefonní číslo",
+        "submitButtonText": "Odeslat přihlášku"
+    },
+    "contacts": {
+        "logoAltText": "Logo",
+        "realEstateText": "Nemovitosti",
+        "investmentTourText": "Investiční zájezd",
+        "regionsText": "Regiony Albánie",
+        "phoneIcon": {
+            "icon": "phone",
+            "number": "+380 93 512 85 47"
+        },
+        "locationIcon": {
+            "icon": "location",
+            "address": "Durrës, Albánie",
+            "mapLink": "https://maps.app.goo.gl/yjVAhm7VPZNqnm3x7"
+        }
+    },
+    "footer": {
+        "subscribeTitle": "Přihlaste se a buďte informováni o aktuálních událostech ve světě nemovitostí v Albánii!",
+        "socialMedia": [
+            {
+                "icon": "whatsapp",
+                "link": "https://wa.me/qr/XXBDREVA66NMP1",
+                "color": "#25D366"
+            },
+            {
+                "icon": "telegram",
+                "link": "https://www.t.me/real_estate_al",
+                "color": "#229ED9"
+            },
+            {
+                "icon": "facebook",
+                "link": "https://www.facebook.com/profile.php?id=100069581861273&mibextid=9R9pXO",
+                "color": "#1877F2"
+            }
+        ],
+        "subscriptionBenefits": [
+            "Zprávy o realitním trhu v Albánii",
+            "Oznámení o nových prodejích",
+            "Přístup k exkluzivním nemovitostem ve fázi předprodeje",
+            "Investiční návrhy"
+        ],
+        "youtubeLink": "https://youtube.com/@albania_gid",
+        "tiktokLink": "https://www.tiktok.com/@real_estate_albania",
+        "we": "Jsme na"
+    },
+    "investModal": {
+        "thanks": "Děkujeme za váš požadavek, brzy vás budeme kontaktovat!",
+        "close": "Zavřít"
+    }
+}

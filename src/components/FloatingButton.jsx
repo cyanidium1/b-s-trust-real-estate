@@ -16,7 +16,7 @@ const FloatingButton = () => {
         <FiPhone />
       </div>
       <div className="element-container">
-        <a href="tel:+380935128547" target='_blank' rel="noreferrer" className="float-element tooltip-left flex justify-center items-center">
+        <a href="tel:+355693122813" target='_blank' rel="noreferrer" className="float-element tooltip-left flex justify-center items-center">
           <FiPhone size={24} />
         </a>
         <a href="https://www.t.me/real_estate_al" target='_blank' rel="noreferrer" className="float-element tooltip-left flex justify-center items-center">

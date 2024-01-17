@@ -16,9 +16,16 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const jsonData = require(`../src/text-content/${lang}.json`);
-        setData(jsonData);
-        setLoading(false);
+        if (['ua', 'ru', 'en', 'pl', 'it', 'cz'].includes(lang)) {
+          const jsonData = require(`../src/text-content/${lang}.json`);
+          setData(jsonData);
+          setLoading(false);
+        } else {
+          const jsonData = require(`../src/text-content/en.json`);
+          setData(jsonData);
+          setLoading(false);
+        }
+
       } catch (error) {
         console.error('Error loading data:', error);
         setLoading(false);

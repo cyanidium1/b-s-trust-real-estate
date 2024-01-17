@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import bg from '../images/palms.jpg'
 import SurveyModal from './SurveyModal';
 
-const GetEstates = ({ data, lang }) => {
+const GetEstates = ({ data, lang, setIsModalThanksOpen }) => {
     const { title, subtitle, buttonText, features } = data;
 
 
@@ -51,7 +51,7 @@ const GetEstates = ({ data, lang }) => {
                     </li>
                 ))}
             </ul>
-            {isModalOpen && <SurveyModal onClose={closeModal} lang={lang} />}
+            {isModalOpen && <SurveyModal onClose={closeModal} lang={lang} setIsModalThanksOpen={setIsModalThanksOpen} />}
 
         </section>
     );
