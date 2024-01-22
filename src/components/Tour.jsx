@@ -52,7 +52,7 @@ const Tour = ({ data }) => {
                 <div className='w-fit ml-auto '>
                     <div className="flex space-x-2">
                         <p className="text-xl">05.</p>
-                        <h3 className="text-xl font-bold">{steps[5].title}</h3>
+                        <h3 className="text-xl font-bold">{steps[4].title}</h3>
                     </div>
                     <div className="ml-auto">
                         {steps[4].description && <p className="text-base">{steps[4].description}</p>}
