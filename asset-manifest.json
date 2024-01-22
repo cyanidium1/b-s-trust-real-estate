@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/b-s-trust-real-estate/static/css/main.d025cc30.css",
-    "main.js": "/b-s-trust-real-estate/static/js/main.cbbc5d75.js",
+    "main.js": "/b-s-trust-real-estate/static/js/main.96ee80b8.js",
     "static/media/bg-Question-min.jpg": "/b-s-trust-real-estate/static/media/bg-Question-min.938054932437035d7a27.jpg",
     "static/media/palms.jpg": "/b-s-trust-real-estate/static/media/palms.02579b03ec81cdded017.jpg",
     "static/media/stairs.webp": "/b-s-trust-real-estate/static/media/stairs.3070a03cfeb172cd1ff8.webp",
@@ -14,10 +14,10 @@
     "static/media/bgTour3@2x.webp": "/b-s-trust-real-estate/static/media/bgTour3@2x.12b05432f68c7488ff7f.webp",
     "index.html": "/b-s-trust-real-estate/index.html",
     "main.d025cc30.css.map": "/b-s-trust-real-estate/static/css/main.d025cc30.css.map",
-    "main.cbbc5d75.js.map": "/b-s-trust-real-estate/static/js/main.cbbc5d75.js.map"
+    "main.96ee80b8.js.map": "/b-s-trust-real-estate/static/js/main.96ee80b8.js.map"
   },
   "entrypoints": [
     "static/css/main.d025cc30.css",
-    "static/js/main.cbbc5d75.js"
+    "static/js/main.96ee80b8.js"
   ]
 }
