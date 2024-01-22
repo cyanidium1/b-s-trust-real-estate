@@ -18,6 +18,7 @@ const SurveyModal = ({ onClose, lang, setIsModalThanksOpen }) => {
   }, []);
 
   const handleOptionSelect = (option) => {
+
     setAnswers((prevAnswers) => ({
       ...prevAnswers,
       [currentQuestion]: option,
