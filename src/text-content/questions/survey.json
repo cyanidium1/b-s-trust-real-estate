@@ -2,7 +2,7 @@
     "ru": [
         {
             "id": 1,
-            "question": "Какая цель покупки недвижимости?",
+            "question": "Ваша цель покупки недвижимости?",
             "options": [
                 "Проживание и получения ВНЖ",
                 "Сезонный отдых",
@@ -63,7 +63,7 @@
     "ua": [
         {
             "id": 1,
-            "question": "Яка мета придбання нерухомості?",
+            "question": "Ваша ціль придбання нерухомості?",
             "options": [
                 "Проживання та отримання постійного місця проживання",
                 "Сезонний відпочинок",
@@ -124,7 +124,7 @@
     "en": [
         {
             "id": 1,
-            "question": "What is the purpose of buying real estate?",
+            "question": "What is your purpose of buying real estate?",
             "options": [
                 "Residency and obtaining a residence permit",
                 "Seasonal vacation",
@@ -246,7 +246,7 @@
     "cz": [
         {
             "id": 1,
-            "question": "K jakému účelu slouží nákup nemovitosti?",
+            "question": "Jaký je váš účel nákupu nemovitosti?",
             "options": [
                 "Bydlení a získání trvalého pobytu",
                 "Sezónní dovolená",
@@ -307,7 +307,7 @@
     "it": [
         {
             "id": 1,
-            "question": "Qual è lo scopo dell'acquisto di immobili?",
+            "question": "Qual è il tuo scopo nell'acquistare immobili?",
             "options": [
                 "Residenza e ottenimento del permesso di soggiorno",
                 "Vacanza stagionale",
