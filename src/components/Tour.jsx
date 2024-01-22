@@ -48,6 +48,9 @@ const Tour = ({ data }) => {
                 </div>
             </div>
 
+
+            <img src={bgTour3} alt="Tour 3" />
+
             <div className="w-full p-2 flex flex-col justify-end">
                 <div className='w-fit ml-auto '>
                     <div className="flex space-x-2">
@@ -56,19 +59,6 @@ const Tour = ({ data }) => {
                     </div>
                     <div className="ml-auto">
                         {steps[4].description && <p className="text-base">{steps[4].description}</p>}
-                    </div>
-                </div>
-            </div>
-            <img src={bgTour3} alt="Tour 3" />
-
-            <div className="w-full p-2 flex flex-col justify-end">
-                <div className='w-fit ml-auto'>
-                    <div className="flex space-x-2">
-                        <p className="text-xl">06.</p>
-                        <h3 className="text-xl font-bold">{steps[5].title}</h3>
-                    </div>
-                    <div className="ml-auto">
-                        {steps[5].description && <p className="text-base">{steps[5].description}</p>}
                     </div>
                 </div>
             </div>
