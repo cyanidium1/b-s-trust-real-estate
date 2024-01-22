@@ -14,7 +14,7 @@ const InvestForm = ({ data, setIsModalOpen, lang }) => {
     invalidName,
   } = data;
   const isValidPhoneNumber = (phoneNumber) => {
-    const phonePattern = /^[\d\s\-()+]+$/;
+    const phonePattern = /^\+\d{7,}$/;
     const minLength = 7;
 
     return phonePattern.test(phoneNumber) && phoneNumber.length >= minLength;

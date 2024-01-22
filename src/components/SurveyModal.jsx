@@ -77,7 +77,7 @@ const SurveyModal = ({ onClose, lang, setIsModalThanksOpen }) => {
     //   `Пользователь ${answers[5]} заполнил анкету о подборе недвижимости в ${currentTime} на ${lang} языке на вашем сайте! Его телефон: ${answers[6]} и он бы хотел что б вы с ним связались через ${answers[7]}. Он выбрал следующие варианты ответов: ${answers[0]}, ${answers[1]}, ${answers[2]}, ${answers[3]}, ${answers[4]}`
     // );
 
-    const message = `Пользователь ${answers[5]} заполнил анкету о подборе недвижимости в ${currentTime} на ${lang} языке на вашем сайте! \nЕго телефон: ${answers[6]} и он бы хотел что б вы с ним связались через ${answers[7]}. \nОн выбрал следующие варианты ответов: ${answers[0]}, ${answers[1]}, ${answers[2]}, ${answers[3]}, ${answers[4]}.`;
+    const message = `Пользователь ${answers[4]} заполнил анкету о подборе недвижимости в ${currentTime} на ${lang} языке на вашем сайте! \nЕго телефон: ${answers[5]} и он бы хотел что б вы с ним связались через ${answers[6]}. \nОн выбрал следующие варианты ответов: ${answers[0]}, ${answers[1]}, ${answers[2]}, ${answers[3]}.`;
     sendMessage(message);
     // ТУТ ДАННЫЕ ЮЗЕРА
     setIsModalThanksOpen(true)
@@ -124,7 +124,7 @@ const SurveyModal = ({ onClose, lang, setIsModalThanksOpen }) => {
             )}
           </div>
         </div>
-        <p>{currentQuestion + 1}/8</p>
+        <p>{currentQuestion + 1}/7</p>
         <div className="flex flex-col">
           {surveyData[currentQuestion]?.type === "input" && (
             <button
@@ -138,7 +138,7 @@ const SurveyModal = ({ onClose, lang, setIsModalThanksOpen }) => {
               {controls.next}
             </button>
           )}
-          {currentQuestion === 7 && (
+          {currentQuestion === 6 && (
             <button
               onClick={handleFinish}
               className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded mb-2"

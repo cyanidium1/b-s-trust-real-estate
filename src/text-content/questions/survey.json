@@ -4,15 +4,15 @@
             "id": 1,
             "question": "Какая цель покупки недвижимости?",
             "options": [
-                "Для проживания и получения ВНЖ",
-                "Для сезонного отдыха",
+                "Проживание и получения ВНЖ",
+                "Сезонный отдых",
                 "Доход в виде аренды",
                 "Другие цели"
             ]
         },
         {
             "id": 2,
-            "question": "Укажите желаемый бюджет для инвестиций в €",
+            "question": "Укажите Ваш бюджет для инвестиций в €",
             "options": [
                 "30,000 - 50,000€",
                 "50,000 - 80,000€",
@@ -31,39 +31,91 @@
         },
         {
             "id": 4,
-            "question": "Есть ли предпочтения по сроку сдачи?",
+            "question": "Ваши предпочтения по году постройки/сдаче в эксплуатацию?",
             "options": [
-                "Вторичный рынок",
-                "Построен и сдан",
-                "Сдача в этом году",
-                "Сдача в ближайшие 3-5 лет"
+                "На этапе строительства",
+                "2020 - 2024 год",
+                "2000 - 2019 год",
+                "до 2000 года"
             ]
         },
         {
             "id": 5,
-            "question": "Вариант оплаты",
-            "options": [
-                "Полная оплата",
-                "Беспроцентная рассрочка",
-                "Оплата криптовалютой"
-            ]
-        },
-        {
-            "id": 6,
             "question": "Ваше имя",
             "type": "input"
         },
         {
-            "id": 7,
+            "id": 6,
             "question": "Ваш номер телефона",
             "type": "input"
         },
         {
-            "id": 8,
+            "id": 7,
             "question": "Выберите удобный способ для связи",
             "options": [
                 "Телефон",
                 "Email",
+                "WhatsApp",
+                "Telegram"
+            ]
+        }
+    ],
+    "ua": [
+        {
+            "id": 1,
+            "question": "Яка мета придбання нерухомості?",
+            "options": [
+                "Проживання та отримання постійного місця проживання",
+                "Сезонний відпочинок",
+                "Дохід у вигляді оренди",
+                "Інші цілі"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Вкажіть Ваш бюджет для інвестицій в €",
+            "options": [
+                "30,000 - 50,000€",
+                "50,000 - 80,000€",
+                "Понад 80,000€"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Який тип нерухомості вас цікавить?",
+            "options": [
+                "Апартаменти",
+                "Вілла",
+                "Таунхаус",
+                "Комерція"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Ваші вподобання щодо року будівництва/здачі в експлуатацію?",
+            "options": [
+                "На етапі будівництва",
+                "2020 - 2024 рік",
+                "2000 - 2019 рік",
+                "до 2000 року"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Ваше ім'я",
+            "type": "input"
+        },
+        {
+            "id": 6,
+            "question": "Ваш номер телефону",
+            "type": "input"
+        },
+        {
+            "id": 7,
+            "question": "Виберіть зручний спосіб для зв'язку",
+            "options": [
+                "Телефон",
+                "Електронна пошта",
                 "WhatsApp",
                 "Telegram"
             ]
@@ -74,15 +126,15 @@
             "id": 1,
             "question": "What is the purpose of buying real estate?",
             "options": [
-                "For residence and obtaining residence permit",
-                "For seasonal recreation",
+                "Residency and obtaining a residence permit",
+                "Seasonal vacation",
                 "Income through rent",
                 "Other purposes"
             ]
         },
         {
             "id": 2,
-            "question": "Specify the desired budget for investments in €",
+            "question": "Specify Your budget for investments in €",
             "options": [
                 "30,000 - 50,000€",
                 "50,000 - 80,000€",
@@ -101,35 +153,26 @@
         },
         {
             "id": 4,
-            "question": "Do you have preferences regarding the delivery date?",
+            "question": "Your preferences regarding the year of construction/delivery to use?",
             "options": [
-                "Secondary market",
-                "Built and delivered",
-                "Delivery this year",
-                "Delivery in the next 3-5 years"
+                "At the construction stage",
+                "2020 - 2024",
+                "2000 - 2019",
+                "Before 2000"
             ]
         },
         {
             "id": 5,
-            "question": "Payment option",
-            "options": [
-                "Full payment",
-                "Interest-free installment plan",
-                "Payment with cryptocurrency"
-            ]
-        },
-        {
-            "id": 6,
             "question": "Your name",
             "type": "input"
         },
         {
-            "id": 7,
+            "id": 6,
             "question": "Your phone number",
             "type": "input"
         },
         {
-            "id": 8,
+            "id": 7,
             "question": "Choose a convenient way to communicate",
             "options": [
                 "Phone",
@@ -144,15 +187,15 @@
             "id": 1,
             "question": "Jaki jest cel zakupu nieruchomości?",
             "options": [
-                "Dla zamieszkania i uzyskania zezwolenia na pobyt stały",
-                "Na sezonowy wypoczynek",
+                "Mieszkanie i uzyskiwanie zezwolenia na pobyt",
+                "Sezonowy wypoczynek",
                 "Dochód z wynajmu",
                 "Inne cele"
             ]
         },
         {
             "id": 2,
-            "question": "Podaj pożądany budżet na inwestycje w €",
+            "question": "Podaj swój budżet na inwestycje w €",
             "options": [
                 "30,000 - 50,000€",
                 "50,000 - 80,000€",
@@ -171,35 +214,26 @@
         },
         {
             "id": 4,
-            "question": "Czy masz preferencje co do daty dostawy?",
+            "question": "Wasze preferencje co do roku budowy/oddania do użytku?",
             "options": [
-                "Rynek wtórny",
-                "Zbudowany i dostarczony",
-                "Dostawa w tym roku",
-                "Dostawa w ciągu najbliższych 3-5 lat"
+                "Na etapie budowy",
+                "2020 - 2024 rok",
+                "2000 - 2019 rok",
+                "Przed rokiem 2000"
             ]
         },
         {
             "id": 5,
-            "question": "Opcja płatności",
-            "options": [
-                "Pełna płatność",
-                "Raty bez odsetek",
-                "Płatność kryptowalutą"
-            ]
-        },
-        {
-            "id": 6,
             "question": "Twoje imię",
             "type": "input"
         },
         {
-            "id": 7,
+            "id": 6,
             "question": "Twój numer telefonu",
             "type": "input"
         },
         {
-            "id": 8,
+            "id": 7,
             "question": "Wybierz wygodny sposób komunikacji",
             "options": [
                 "Telefon",
@@ -214,15 +248,15 @@
             "id": 1,
             "question": "K jakému účelu slouží nákup nemovitosti?",
             "options": [
-                "Pro bydlení a získání trvalého pobytu",
-                "Pro sezónní rekreaci",
+                "Bydlení a získání trvalého pobytu",
+                "Sezónní dovolená",
                 "Příjem z pronájmu",
                 "Jiné účely"
             ]
         },
         {
             "id": 2,
-            "question": "Uveďte požadovaný rozpočet na investice v €",
+            "question": "Uveďte váš rozpočet na investice v €",
             "options": [
                 "30,000 - 50,000€",
                 "50,000 - 80,000€",
@@ -241,35 +275,26 @@
         },
         {
             "id": 4,
-            "question": "Máte preference ohledně termínu odevzdání?",
+            "question": "Vaše preference ohledně roku výstavby/uzavření do užívání?",
             "options": [
-                "Sekundární trh",
-                "Postaveno a odevzdáno",
-                "Odevzdání letos",
-                "Odevzdání v příštích 3-5 letech"
+                "Ve fázi výstavby",
+                "2020 - 2024 rok",
+                "2000 - 2019 rok",
+                "Před rokem 2000"
             ]
         },
         {
             "id": 5,
-            "question": "Možnost platby",
-            "options": [
-                "Plná platba",
-                "Bezúročná splátka",
-                "Platba kryptoměnou"
-            ]
-        },
-        {
-            "id": 6,
             "question": "Vaše jméno",
             "type": "input"
         },
         {
-            "id": 7,
+            "id": 6,
             "question": "Vaše telefonní číslo",
             "type": "input"
         },
         {
-            "id": 8,
+            "id": 7,
             "question": "Vyberte pohodlný způsob komunikace",
             "options": [
                 "Telefon",
@@ -284,15 +309,15 @@
             "id": 1,
             "question": "Qual è lo scopo dell'acquisto di immobili?",
             "options": [
-                "Per la residenza e l'ottenimento del permesso di soggiorno",
-                "Per le vacanze stagionali",
+                "Residenza e ottenimento del permesso di soggiorno",
+                "Vacanza stagionale",
                 "Reddito attraverso l'affitto",
                 "Altri scopi"
             ]
         },
         {
             "id": 2,
-            "question": "Specificare il budget desiderato per gli investimenti in €",
+            "question": "Specificare il vostro budget per gli investimenti in €",
             "options": [
                 "30,000 - 50,000€",
                 "50,000 - 80,000€",
@@ -311,35 +336,26 @@
         },
         {
             "id": 4,
-            "question": "Hai preferenze per la data di consegna?",
+            "question": "Le vostre preferenze sull'anno di costruzione/consegna per l'uso?",
             "options": [
-                "Mercato secondario",
-                "Costruito e consegnato",
-                "Consegna quest'anno",
-                "Consegna nei prossimi 3-5 anni"
+                "In fase di costruzione",
+                "2020 - 2024",
+                "2000 - 2019",
+                "Prima del 2000"
             ]
         },
         {
             "id": 5,
-            "question": "Opzione di pagamento",
-            "options": [
-                "Pagamento completo",
-                "Piano di pagamento senza interessi",
-                "Pagamento con criptovaluta"
-            ]
-        },
-        {
-            "id": 6,
             "question": "Il tuo nome",
             "type": "input"
         },
         {
-            "id": 7,
+            "id": 6,
             "question": "Il tuo numero di telefono",
             "type": "input"
         },
         {
-            "id": 8,
+            "id": 7,
             "question": "Scegli un modo comodo per comunicare",
             "options": [
                 "Telefono",

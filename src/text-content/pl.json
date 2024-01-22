@@ -1,22 +1,21 @@
 {
     "getEstates": {
         "title": "NIERUCHOMOŚCI W ALBANII",
-        "subtitle": "Kup nieruchomość nad morzem i uzyskaj Prawo pobytu!",
-        "buttonText": "Otrzymaj propozycję nieruchomości",
+        "subtitle": "Kup nieruchomość nad morzem i uzyskaj ZEZWOLENIE NA POBYT",
+        "buttonText": "Uzyskaj bezpłatny wybór",
         "features": [
-            "pomoc w doborze i zakupie nieruchomości",
-            "remont i umeblowanie",
-            "wynajem i zarządzanie Twoją nieruchomością"
+            "Naprawy, projektowanie wnętrz i umeblowanie",
+            "Wynajem i zarządzanie twoją nieruchomością"
         ]
     },
     "albaniaMap": {
         "title": "DLACZEGO ALBANIA?",
         "features": [
-            "Najtańsze nieruchomości nad Adriatykiem",
-            "Bezpieczny kraj",
-            "300 dni słońca w roku",
-            "Ekologiczne produkty spożywcze",
-            "Korzystny klimat"
+            "Przystępne nieruchomości nad Adriatykiem i Morzem Jońskim",
+            "Znajduje się wśród NAJBEZPIECZNIEJSZYCH krajów w Europie",
+            "Korzystny klimat i 300 słonecznych dni w roku",
+            "Ekologicznie czyste produkty spożywcze",
+            "Najbardziej postępowy program rezydencji w Europie"
         ]
     },
     "tour": {
@@ -25,12 +24,12 @@
         "steps": [
             {
                 "number": "01.",
-                "title": "Wycieczka do 5 dni",
-                "description": "Zwiedzanie miasta i spacery. Obejrzenie szkół i uniwersytetów"
+                "title": "5-dniowa wycieczka",
+                "description": "Zwiedzanie miasta i spacery. Inspekcja szkół i uniwersytetów"
             },
             {
                 "number": "02.",
-                "title": "Dogodne dla Ciebie daty"
+                "title": "Wygodne dla Ciebie daty"
             },
             {
                 "number": "03.",
@@ -39,7 +38,7 @@
             {
                 "number": "04.",
                 "title": "Transfer lotnisko/hotel/lotnisko",
-                "description": "Konsultacje dotyczące zawarcia umowy dotyczącej nieruchomości"
+                "description": "Konsultacje dotyczące formalności transakcji"
             },
             {
                 "number": "05.",
@@ -48,8 +47,8 @@
             },
             {
                 "number": "06.",
-                "title": "Obejrzenie najlepszych nieruchomości pod Twoje cele",
-                "description": "Usługi prawnika. Uzyskanie Prawa pobytu"
+                "title": "Oglądanie nieruchomości",
+                "description": "Usługi prawnicze. Uzyskiwanie zezwolenia na zamieszkanie"
             }
         ]
     },

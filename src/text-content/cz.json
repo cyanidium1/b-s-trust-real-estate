@@ -1,22 +1,21 @@
 {
     "getEstates": {
         "title": "REALITY V ALBÁNII",
-        "subtitle": "Koupit nemovitost na pobřeží a získat rezidenci!",
-        "buttonText": "Získat výběr nemovitostí",
+        "subtitle": "Kupte si nemovitost u moře a získejte POVOLENÍ K POBYTU",
+        "buttonText": "Získejte bezplatný výběr",
         "features": [
-            "Pomoc při výběru a nákupu nemovitosti",
-            "Renovace a zařizování",
+            "Opravy, interiérový design a zařizování",
             "Pronájem a správa vaší nemovitosti"
         ]
     },
     "albaniaMap": {
         "title": "PROČ ALBÁNIE?",
         "features": [
-            "Nejlevnější nemovitosti na Jaderském moři",
-            "Bezpečná země",
-            "300 slunečních dní za rok",
-            "Ekologické potravinové produkty",
-            "Příznivé klima"
+            "Dostupné nemovitosti na Jaderském a Jónském moři",
+            "Zařazeno mezi NEJBEZPEČNĚJŠÍ země v Evropě",
+            "Příznivé klima a 300 slunečních dní v roce",
+            "Ekologicky čisté potraviny",
+            "Nejprogresivnější rezidenční program v Evropě"
         ]
     },
     "tour": {
@@ -25,12 +24,12 @@
         "steps": [
             {
                 "number": "01.",
-                "title": "Zájezd až na 5 dní",
-                "description": "Exkurze a procházky městem. Návštěva škol a univerzit."
+                "title": "5denní zájezd",
+                "description": "Prohlídky a procházky po městě. Prohlídka škol a univerzit"
             },
             {
                 "number": "02.",
-                "title": "Vhodné termíny pro vás"
+                "title": "Pohodlná data pro vás"
             },
             {
                 "number": "03.",
@@ -39,17 +38,17 @@
             {
                 "number": "04.",
                 "title": "Přeprava letiště/hotel/letiště",
-                "description": "Konzultace ohledně dokumentace k transakci s nemovitostmi"
+                "description": "Poradenství ohledně uzavření smlouvy"
             },
             {
                 "number": "05.",
                 "title": "Ubytování v pohodlných apartmánech",
-                "description": "Založení bankovního účtu"
+                "description": "Otevření bankovního účtu"
             },
             {
                 "number": "06.",
-                "title": "Prohlídka nejlepších nemovitostí pro vaše cíle",
-                "description": "Právní služby. Získání rezidence"
+                "title": "Prohlídka nemovitostí",
+                "description": "Služby právníka. Získání povolení k pobytu"
             }
         ]
     },

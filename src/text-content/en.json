@@ -1,22 +1,21 @@
 {
     "getEstates": {
         "title": "REAL ESTATE IN ALBANIA",
-        "subtitle": "Buy seaside property and obtain Residency!",
-        "buttonText": "Get Real Estate Selection",
+        "subtitle": "Buy property by the sea and get a RESIDENCE PERMIT",
+        "buttonText": "Receive free selection",
         "features": [
-            "Assistance in property selection and purchase",
-            "Renovation and furnishing",
-            "Renting and managing your property"
+            "Repairs, interior design, and furnishing",
+            "Rental and management of your property"
         ]
     },
     "albaniaMap": {
         "title": "WHY ALBANIA?",
         "features": [
-            "Most affordable real estate on the Adriatic",
-            "Safe country",
-            "300 days of sunshine per year",
-            "Organic food products",
-            "Favorable climate"
+            "Affordable real estate on the Adriatic and Ionian Seas",
+            "Ranked among the TOP safest countries in Europe",
+            "Favorable climate and 300 sunny days per year",
+            "Ecologically clean food products",
+            "The most progressive residency program in Europe"
         ]
     },
     "tour": {
@@ -25,8 +24,8 @@
         "steps": [
             {
                 "number": "01.",
-                "title": "Tour up to 5 days",
-                "description": "Excursions and city walks. Visiting schools and universities"
+                "title": "5-day tour",
+                "description": "City tours and walks. Inspection of schools and universities"
             },
             {
                 "number": "02.",
@@ -34,12 +33,12 @@
             },
             {
                 "number": "03.",
-                "title": "Meeting at the airport"
+                "title": "Airport meeting"
             },
             {
                 "number": "04.",
-                "title": "Transfer airport/hotel/airport",
-                "description": "Consultation on real estate transaction documentation"
+                "title": "Airport/hotel/airport transfer",
+                "description": "Consultation on transaction formalities"
             },
             {
                 "number": "05.",
@@ -48,8 +47,8 @@
             },
             {
                 "number": "06.",
-                "title": "Tour of the best real estate for your goals",
-                "description": "Legal services. Obtaining Residency"
+                "title": "Property viewing",
+                "description": "Legal services. Obtaining residence permits"
             }
         ]
     },

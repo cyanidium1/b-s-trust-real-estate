@@ -1,22 +1,21 @@
 {
     "getEstates": {
         "title": "IMMOBILI IN ALBANIA",
-        "subtitle": "Acquista una proprietà sul mare e ottieni la residenza!",
-        "buttonText": "Ottieni la Selezione Immobiliare",
+        "subtitle": "Acquista una proprietà al mare e ottieni un PERMESSO DI SOGGIORNO",
+        "buttonText": "Ottieni una selezione gratuita",
         "features": [
-            "Assistenza nella scelta e nell'acquisto della proprietà",
-            "Ristrutturazione e arredamento",
+            "Riparazioni, design d'interni e arredamento",
             "Affitto e gestione della tua proprietà"
         ]
     },
     "albaniaMap": {
         "title": "PERCHÉ L'ALBANIA?",
         "features": [
-            "Immobili più convenienti sull'Adriatico",
-            "Paese sicuro",
-            "300 giorni di sole all'anno",
-            "Prodotti alimentari biologici",
-            "Clima favorevole"
+            "Immobili convenienti sulle coste dell'Adriatico e dello Ionio",
+            "Classificato tra i PAESI PIÙ SICURI in Europa",
+            "Clima favorevole e 300 giorni di sole all'anno",
+            "Prodotti alimentari ecologicamente puliti",
+            "Il programma di residenza più progressista in Europa"
         ]
     },
     "tour": {
@@ -25,8 +24,8 @@
         "steps": [
             {
                 "number": "01.",
-                "title": "Tour fino a 5 giorni",
-                "description": "Escursioni e passeggiate in città. Visita a scuole e università"
+                "title": "Tour di 5 giorni",
+                "description": "Tour e passeggiate in città. Ispezione di scuole e università"
             },
             {
                 "number": "02.",
@@ -39,17 +38,17 @@
             {
                 "number": "04.",
                 "title": "Trasferimento aeroporto/hotel/aeroporto",
-                "description": "Consulenza sulla documentazione della transazione immobiliare"
+                "description": "Consulenza sulla formalizzazione della transazione"
             },
             {
                 "number": "05.",
-                "title": "Sistemazione in confortevoli appartamenti",
+                "title": "Alloggio in confortevoli appartamenti",
                 "description": "Apertura di un conto bancario"
             },
             {
                 "number": "06.",
-                "title": "Tour delle migliori proprietà immobiliari per i tuoi obiettivi",
-                "description": "Servizi legali. Ottenimento della residenza"
+                "title": "Visione delle proprietà",
+                "description": "Servizi legali. Ottenimento del permesso di soggiorno"
             }
         ]
     },
