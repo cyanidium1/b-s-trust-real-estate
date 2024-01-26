@@ -1,16 +1,16 @@
-import axios from "axios";
+// import axios from "axios";
 
 export const sendMessage = (message) => {
-  // const TOKEN = "6802394873:AAHFRGdxOIQHrTnNR0_aAX2e3XhxQf3p66Q";
-  const TOKEN = "6894810948:AAGK2gumV7SN_bMQpTpLxw0iVLxh2qeDEHs";
-  const CHAT_ID = "-1001514536231";
-  const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
-  axios
-    .post(URL_API, {
-      chat_id: CHAT_ID,
-      parse_mode: "html",
-      text: message,
-    })
-    .then((res) => { })
-    .catch((err) => { });
+  // const TOKEN = "bot father";
+  // const CHAT_ID = "raw data";
+  // const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+  alert('This is dev version of website. No data was sent.')
+  // axios
+  //   .post(URL_API, {
+  //     chat_id: CHAT_ID,
+  //     parse_mode: "html",
+  //     text: message,
+  //   })
+  //   .then((res) => { })
+  //   .catch((err) => { });
 };
