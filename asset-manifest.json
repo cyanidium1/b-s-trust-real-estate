@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/b-s-trust-real-estate/static/css/main.d025cc30.css",
-    "main.js": "/b-s-trust-real-estate/static/js/main.f44c348f.js",
+    "main.css": "/b-s-trust-real-estate/static/css/main.52c6302f.css",
+    "main.js": "/b-s-trust-real-estate/static/js/main.7fa074be.js",
+    "static/js/672.6cc33767.chunk.js": "/b-s-trust-real-estate/static/js/672.6cc33767.chunk.js",
+    "static/js/272.1bd5e9f7.chunk.js": "/b-s-trust-real-estate/static/js/272.1bd5e9f7.chunk.js",
+    "static/js/442.7310fc6d.chunk.js": "/b-s-trust-real-estate/static/js/442.7310fc6d.chunk.js",
     "static/media/bg-Question-min.jpg": "/b-s-trust-real-estate/static/media/bg-Question-min.938054932437035d7a27.jpg",
     "static/media/palms.jpg": "/b-s-trust-real-estate/static/media/palms.02579b03ec81cdded017.jpg",
     "static/media/stairs.webp": "/b-s-trust-real-estate/static/media/stairs.3070a03cfeb172cd1ff8.webp",
-    "static/media/logoBig.webp": "/b-s-trust-real-estate/static/media/logoBig.77c6da1e214b465c1cdc.webp",
     "static/media/bgTour2@2x.webp": "/b-s-trust-real-estate/static/media/bgTour2@2x.67d4e5cef2b48b2ecb06.webp",
     "static/media/house.webp": "/b-s-trust-real-estate/static/media/house.6027230a342983a79049.webp",
     "static/media/albania-map.webp": "/b-s-trust-real-estate/static/media/albania-map.76de2cd3cced4984911a.webp",
-    "static/media/logoHeader.webp": "/b-s-trust-real-estate/static/media/logoHeader.62dc5792058bb5a964c2.webp",
+    "static/media/logo.png": "/b-s-trust-real-estate/static/media/logo.1ef232c446e71123e65f.png",
     "static/media/bgTour1@2x.webp": "/b-s-trust-real-estate/static/media/bgTour1@2x.5183f6163b86e2daa35c.webp",
     "static/media/bgTour3@2x.webp": "/b-s-trust-real-estate/static/media/bgTour3@2x.12b05432f68c7488ff7f.webp",
     "index.html": "/b-s-trust-real-estate/index.html",
-    "main.d025cc30.css.map": "/b-s-trust-real-estate/static/css/main.d025cc30.css.map",
-    "main.f44c348f.js.map": "/b-s-trust-real-estate/static/js/main.f44c348f.js.map"
+    "main.52c6302f.css.map": "/b-s-trust-real-estate/static/css/main.52c6302f.css.map",
+    "main.7fa074be.js.map": "/b-s-trust-real-estate/static/js/main.7fa074be.js.map",
+    "672.6cc33767.chunk.js.map": "/b-s-trust-real-estate/static/js/672.6cc33767.chunk.js.map",
+    "272.1bd5e9f7.chunk.js.map": "/b-s-trust-real-estate/static/js/272.1bd5e9f7.chunk.js.map",
+    "442.7310fc6d.chunk.js.map": "/b-s-trust-real-estate/static/js/442.7310fc6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d025cc30.css",
-    "static/js/main.f44c348f.js"
+    "static/css/main.52c6302f.css",
+    "static/js/main.7fa074be.js"
   ]
 }
