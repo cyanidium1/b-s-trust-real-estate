@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import bg from "../images/house.webp";
 import { Button, Input } from "@material-tailwind/react";
 import { sendMessage } from "../sendMessage";
+import { useNavigate } from "react-router-dom";
 
-const InvestForm = ({ data, setIsModalOpen, lang }) => {
+const InvestForm = ({ data, lang }) => {
   const {
     formTitle,
     formDescription,
@@ -29,6 +30,8 @@ const InvestForm = ({ data, setIsModalOpen, lang }) => {
     name: "",
     phone: "",
   });
+
+  const navigate = useNavigate();
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -64,13 +67,15 @@ const InvestForm = ({ data, setIsModalOpen, lang }) => {
     }
 
     sendMessage(
-      `Посетитель вашего сайта хочет чтобы с ним связались, его имя: ${name.value}, его телефон: ${phone.value}. Он оставил заявку на ${lang} языке в ${new Date().toLocaleTimeString()}.`
+      `Посетитель вашего сайта хочет чтобы с ним связались, его имя: ${
+        name.value
+      }, его телефон: ${
+        phone.value
+      }. Он оставил заявку на ${lang} языке в ${new Date().toLocaleTimeString()}.`
     );
 
-    setIsModalOpen(true);
+    navigate("/thanks");
   };
-
-
 
   return (
     <div className="h-[680px] relative">
@@ -106,16 +111,13 @@ const InvestForm = ({ data, setIsModalOpen, lang }) => {
           <div className="w-full my-4">
             <Input name="name" label={nameLabel} onChange={handleInputChange} />
             {validationErrors.name && (
-              <p className="text-red-500 text-center py-1">
-                {invalidName}
-              </p>
+              <p className="text-red-500 text-center py-1">{invalidName}</p>
             )}
           </div>
           <div className="w-full">
             <Input
               name="phone"
               label={phoneLabel}
-
               onChange={handleInputChange}
             />
             {validationErrors.phone && (

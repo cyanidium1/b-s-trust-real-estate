@@ -4,7 +4,7 @@ import data from "../../text-content/questions/survey.json";
 import { sendMessage } from "../../sendMessage";
 import { NavLink, useNavigate } from "react-router-dom";
 
-const SurveyPage = ({ onClose, lang, setIsModalThanksOpen }) => {
+const SurveyPage = ({ lang }) => {
   const surveyData = data[lang] || [];
   const controls = data.controls[lang];
   const [currentQuestion, setCurrentQuestion] = useState(0);
