@@ -103,6 +103,7 @@
     },
     "investModal": {
         "thanks": "Grazie per la tua richiesta, ti contatteremo a breve!",
-        "close": "Chiudi"
+        "close": "Chiudi",
+        "toHome": "Alla pagina principale"
     }
 }

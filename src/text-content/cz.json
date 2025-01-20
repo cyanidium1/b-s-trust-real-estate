@@ -103,6 +103,7 @@
     },
     "investModal": {
         "thanks": "Děkujeme za váš požadavek, brzy vás budeme kontaktovat!",
-        "close": "Zavřít"
+        "close": "Zavřít",
+       "toHome": "Na hlavní stránku"
     }
 }
