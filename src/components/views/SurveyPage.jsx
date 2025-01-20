@@ -79,7 +79,7 @@ const SurveyPage = ({ onClose, lang, setIsModalThanksOpen }) => {
     // );
 
     const message = `Пользователь ${answers[4]} заполнил анкету о подборе недвижимости в ${currentTime} на ${lang} языке на вашем сайте! \nЕго телефон: ${answers[5]} и он бы хотел что б вы с ним связались через ${answers[6]}. \nОн выбрал следующие варианты ответов: ${answers[0]}, ${answers[1]}, ${answers[2]}, ${answers[3]}.`;
-    // sendMessage(message);
+    sendMessage(message);
     console.log("🚀 ~ handleFinish ~ message:", message);
     // ТУТ ДАННЫЕ ЮЗЕРА
     navigate("/thanks");
