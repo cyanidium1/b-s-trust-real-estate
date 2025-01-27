@@ -24,7 +24,7 @@ function Header({ lang, setLang }) {
           <Button>{lang}</Button>
         </MenuHandler>
         <MenuList>
-          <MenuItem onClick={() => setLang("ua")}> Українська</MenuItem>
+          <MenuItem onClick={() => setLang("uk")}> Українська</MenuItem>
           <MenuItem onClick={() => setLang("ru")}> Русский</MenuItem>
           <MenuItem onClick={() => setLang("en")}> English</MenuItem>
           <MenuItem onClick={() => setLang("pl")}> Polska</MenuItem>

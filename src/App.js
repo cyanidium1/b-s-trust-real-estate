@@ -13,7 +13,7 @@ function App() {
 
   function getDefaultLanguage() {
     const browserLanguage = navigator.language || navigator.userLanguage;
-    const supportedLanguages = ["ua", "ru", "en", "pl", "it", "cz"];
+    const supportedLanguages = ["uk", "ru", "en", "pl", "it", "cz"];
     const defaultLanguage = "ru";
 
     const language = browserLanguage.split("-")[0];
@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        if (["ua", "ru", "en", "pl", "it", "cz"].includes(lang)) {
+        if (["uk", "ru", "en", "pl", "it", "cz"].includes(lang)) {
           const jsonData = require(`../src/text-content/${lang}.json`);
           setData(jsonData);
           setLoading(false);

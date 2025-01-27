@@ -60,7 +60,7 @@
             ]
         }
     ],
-    "ua": [
+    "uk": [
         {
             "id": 1,
             "question": "Ваша ціль придбання нерухомості?",
@@ -373,7 +373,7 @@
             "noNumber": "Please enter a number",
             "finish": "Finish"
         },
-        "ua": {
+        "uk": {
             "next": "Далі",
             "back": "Назад",
             "exit": "Вийти",
