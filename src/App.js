@@ -14,7 +14,7 @@ function App() {
   function getDefaultLanguage() {
     const browserLanguage = navigator.language || navigator.userLanguage;
     const supportedLanguages = ["ua", "ru", "en", "pl", "it", "cz"];
-    const defaultLanguage = "en";
+    const defaultLanguage = "ru";
 
     const language = browserLanguage.split("-")[0];
     return supportedLanguages.includes(language) ? language : defaultLanguage;
