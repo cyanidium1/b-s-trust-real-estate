@@ -28,7 +28,7 @@ function App() {
           setData(jsonData);
           setLoading(false);
         } else {
-          const jsonData = require(`../src/text-content/en.json`);
+          const jsonData = require(`../src/text-content/uk.json`);
           setData(jsonData);
           setLoading(false);
         }
